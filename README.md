@@ -1,2 +1,1 @@
 # python
-# Tailwind-css
