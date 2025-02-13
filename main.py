@@ -5,7 +5,6 @@ class Teacher:
 
 # create method
   def __reps__(self):
-  pass
-
+    print(f'Teacher Name :{self.name}')
 if __name__ == '__main':
   print('main file')
