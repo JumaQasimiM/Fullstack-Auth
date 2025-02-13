@@ -1,6 +1,7 @@
 # create user 
 import person
 class User:
+  # create user 
   def __init__(self, user_name, password, email, salt):
     self.user_name = user_name
     self.password = password
