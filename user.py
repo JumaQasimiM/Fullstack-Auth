@@ -8,6 +8,11 @@ class User:
   def __reps__(self):
     print(f'user name {self.user_name}')
 
+
+
+if __name__ == '__main':
+  juma = User('qasimi','jrhw123',32)
+  
   
     
 
