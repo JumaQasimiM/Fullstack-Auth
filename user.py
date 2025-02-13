@@ -7,7 +7,9 @@ class User:
     self.password = password
     self.eemil = email
     self.salt = salt
+    
   def __reps__(self):
+    # create method
     print(f'user name {self.user_name}')
 
 
