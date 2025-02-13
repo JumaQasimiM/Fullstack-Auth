@@ -5,6 +5,9 @@ class User:
     self.password = password
     self.eemil = email
     self.salt = salt
+  def __reps__(self):
+    print(f'user name {self.user_name}')
+
   
     
 
