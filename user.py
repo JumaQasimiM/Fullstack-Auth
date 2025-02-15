@@ -8,9 +8,10 @@ class User:
     self.eemil = email
     self.salt = salt
     
-  def __reps__(self):
+  def __repr__(self):
     # create method
     print(f'user name {self.user_name}')
+  # hash password
 
 
 
