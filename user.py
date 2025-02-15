@@ -12,6 +12,8 @@ class User:
     # create method
     print(f'user name {self.user_name}')
   # hash password
+  def hashPassword(self):
+    pass
 
 
 
