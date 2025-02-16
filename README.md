@@ -4,5 +4,5 @@
 3. lambda function
    
 
-   > when use and how to use 
+   >when use and how to use 
    
