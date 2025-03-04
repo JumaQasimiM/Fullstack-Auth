@@ -8,3 +8,5 @@ class Teacher:
     print(f'Teacher Name :{self.name}')
 if __name__ == '__main':
   print('main file')
+  
+# create a class for doing somethings
