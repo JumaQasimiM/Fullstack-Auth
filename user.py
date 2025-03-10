@@ -16,7 +16,7 @@ class User:
     pass
 
 def __str__(self):
-  return 
+  print(f"name {self.username}")
   
 
 
