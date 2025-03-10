@@ -15,6 +15,9 @@ class User:
   def hashPassword(self):
     pass
 
+def __str__(self):
+  
+
 
 
 if __name__ == '__main':
