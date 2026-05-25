@@ -7,9 +7,10 @@ class IsAdminCompanyJobSearchOrReadOnly(BasePermission):
         if request.method in SAFE_METHODS:
             return True
         
-        # with login
+        # Must be logged in
         if not request.user or not request.user.is_authenticated:
             return False
         
+         # Allowed roles
         return request.user.role in ['admin', 'company','job_search']
 
